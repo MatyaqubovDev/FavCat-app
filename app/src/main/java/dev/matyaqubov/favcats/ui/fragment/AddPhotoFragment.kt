@@ -30,7 +30,7 @@ class AddPhotoFragment : Fragment() {
         imageView=view.findViewById(R.id.image)
         tv_isSelected=view.findViewById(R.id.tv_isSelect)
         b_upload.setOnClickListener {
-
+//upload
             activity?.onBackPressed()
         }
         return view
